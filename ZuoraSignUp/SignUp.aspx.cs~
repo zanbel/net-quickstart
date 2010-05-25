@@ -159,14 +159,7 @@ namespace ZuoraSignUp
 
             String message = ZuoraInterface.createMessage(result);
 
-            if (status != null)
-            {
-                status.Text = message;
-            }
-            else
-            {
-                Response.Write(message);
-            }
+            Response.Write(message);
 
         }
 

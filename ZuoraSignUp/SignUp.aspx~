@@ -6,9 +6,6 @@
     <title>Sign Up</title>
 </head>
 <body>
-
-    <asp:Label ID="status" runat="server"></asp:Label>
-
     <form id="Form1" runat="server">
     <h2>
         Select a Product</h2>
